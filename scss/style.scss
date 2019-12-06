@@ -1,0 +1,13 @@
+@import "./_fonts.scss";
+@import "./header";
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+}
+.flex-parent{
+  display: flex;
+  height: 10rem;
+  background-color: #caffee;
+}
