@@ -9,6 +9,8 @@ html {
 
 html {
   font-size: 62.5%;
+  padding: 2rem 1rem 2rem 1rem;
+  margin: 3px;
 }
 
 body {
@@ -19,7 +21,15 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 10rem;
+  height: 80vh;
+  color: 0;
   background-color: #caffee;
+}
+
+.flex-child {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 2rem;
+  height: 5rem;
 }
 /*# sourceMappingURL=style.css.map */

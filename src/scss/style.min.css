@@ -1,2 +1,2 @@
-html{font-family:Georgia, "Times New Roman", Times, serif}.header{background-color:blue;height:30vh}html{font-size:62.5%}body{background-color:red;height:100%}
+html{font-family:Georgia, "Times New Roman", Times, serif}.header{background-color:blue;height:30vh}html{font-size:62.5%;padding:2rem 1rem 2rem 1rem;margin:3px}body{height:100%}.flex-parent{display:-webkit-box;display:-ms-flexbox;display:flex;height:80vh;color:0;background-color:#caffee}.flex-child{-ms-flex-pack:distribute;justify-content:space-around;font-size:2rem;height:5rem}
 /*# sourceMappingURL=style.min.css.map */
