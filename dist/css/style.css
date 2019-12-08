@@ -21,15 +21,69 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 80vh;
-  color: 0;
-  background-color: #caffee;
+  height: 85vh;
+  background-color: #d5d9d7;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
 }
 
-.flex-child {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+.flex-child-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2.5rem;
+  height: 75vh;
+  padding: 8vh;
+  max-width: 40rem;
+  color: #b61f6b;
+}
+
+.flex-child-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 2rem;
-  height: 5rem;
+  height: 60vh;
+  padding: 8vh;
+}
+
+.flex-child-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 2.5rem;
+  height: 75vh;
+  padding: 8vh;
+  max-width: 40rem;
+  color: #1f6bb6;
+}
+
+#list-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3rem;
+  height: 75vh;
+  max-width: 40rem;
+  color: #1fb6b6;
+}
+
+#empty-space {
+  height: 10vh;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
