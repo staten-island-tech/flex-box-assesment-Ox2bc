@@ -54,5 +54,16 @@ body {
   color: white;
 }
 #button{
+  display: flex;
   max-height: 10vh;
+  color: $triadic-color-2;
+  align-self: center;
+}
+button:hover{
+  background-color: $analogous-color-2;
+}
+#button-container{
+  display: flex;
+  align-items: center;
+  color: $triadic-color-1;
 }
