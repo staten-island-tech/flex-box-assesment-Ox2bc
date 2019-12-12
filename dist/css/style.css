@@ -9,8 +9,8 @@ html {
 
 html {
   font-size: 62.5%;
-  padding: 2rem 1rem 2rem 1rem;
-  margin: 3px;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -38,9 +38,9 @@ body {
           justify-content: center;
   font-size: 2.5rem;
   height: 75vh;
-  padding: 8vh;
+  padding: 6rem;
   max-width: 40rem;
-  color: #b61f6b;
+  color: black;
 }
 
 .flex-child-image {
@@ -52,7 +52,7 @@ body {
           justify-content: center;
   font-size: 2rem;
   height: 60vh;
-  padding: 8vh;
+  padding: 6rem;
 }
 
 .flex-child-list {
@@ -62,11 +62,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   height: 75vh;
   padding: 8vh;
   max-width: 40rem;
-  color: #1f6bb6;
+  color: black;
 }
 
 #list-title {
@@ -76,10 +76,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
   height: 75vh;
   max-width: 40rem;
-  color: #1fb6b6;
+  color: black;
 }
 
 #empty-space {
@@ -92,13 +92,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   max-height: 10vh;
-  color: #6b1fb6;
+  color: black;
   -ms-flex-item-align: center;
       align-self: center;
+  border-radius: 50%;
 }
 
 button:hover {
-  background-color: #1fb6b6;
+  background-color: pink;
 }
 
 #button-container {
@@ -108,6 +109,6 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #1f6bb6;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

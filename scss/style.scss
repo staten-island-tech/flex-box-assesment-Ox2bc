@@ -3,67 +3,68 @@
 @import "./colors";
 html {
   font-size: 62.5%;
-  padding: 2rem 1rem 2rem 1rem;
-  margin: 3px;
+  padding: 0;
+  margin: 0;
 }
 body {
   height: 100%;
 }
-.flex-parent{
+.flex-parent {
   display: flex;
   height: 85vh;
   background-color: $background-color;
   justify-content: space-between;
   padding: 15px;
 }
-.flex-child-text{
+.flex-child-text {
   display: flex;
   justify-content: center;
   font-size: 2.5rem;
   height: 75vh;
-  padding: 8vh;
+  padding: 6rem;//no 
   max-width: 40rem;
-  color: $complementary-color;
+  color: $black;
 }
-.flex-child-image{
+.flex-child-image {
   display: flex;
   justify-content: center;
   font-size: 2rem;
   height: 60vh;
-  padding: 8vh;
+  padding: 6rem;//no 
 }
-.flex-child-list{
+.flex-child-list {
   display: flex;
   justify-content: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   height: 75vh;
-  padding: 8vh;
+  padding: 8vh;//no
   max-width: 40rem;
-  color: $triadic-color-1;
+  color: $black;
 }
-#list-title{
+#list-title {
   display: flex;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
   height: 75vh;
   max-width: 40rem;
-  color: $analogous-color-2;
+  color: $black;
 }
-#empty-space{
+#empty-space {
   height: 10vh;
   color: white;
 }
-#button{
+#button {
   display: flex;
   max-height: 10vh;
-  color: $triadic-color-2;
+  color: $black;
   align-self: center;
+  border-radius: 50%;
 }
-button:hover{
-  background-color: $analogous-color-2;
+button:hover {
+  background-color: pink;
 }
-#button-container{
+#button-container {
   display: flex;
   align-items: center;
-  color: $triadic-color-1;
+  color: $black;
 }
